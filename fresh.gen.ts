@@ -7,9 +7,9 @@ import * as $_app from "./routes/_app.tsx";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
+import * as $ContextTravel from "./islands/ContextTravel.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $SectionHome from "./islands/SectionHome.tsx";
-import * as $context_contextTravel from "./islands/context/contextTravel.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -21,9 +21,9 @@ const manifest = {
     "./routes/index.tsx": $index,
   },
   islands: {
+    "./islands/ContextTravel.tsx": $ContextTravel,
     "./islands/Counter.tsx": $Counter,
     "./islands/SectionHome.tsx": $SectionHome,
-    "./islands/context/contextTravel.tsx": $context_contextTravel,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

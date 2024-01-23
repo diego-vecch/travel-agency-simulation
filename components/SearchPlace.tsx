@@ -4,7 +4,7 @@ import {
   useState,
 } from "https://esm.sh/preact@10.19.2/hooks";
 import { JSX } from "preact/jsx-runtime";
-import { InfoTravels } from "../islands/context/contextTravel.tsx";
+import { InfoTravels } from "../islands/ContextTravel.tsx";
 import { CardInfoPreviewFly } from "./CardInfoPreviewFly.tsx";
 import { FlyResponse } from "../types/FlyProps.ts";
 export function SearchPlace(): JSX.Element {

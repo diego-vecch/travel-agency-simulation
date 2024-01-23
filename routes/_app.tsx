@@ -1,5 +1,5 @@
 import { type PageProps } from "$fresh/server.ts";
-import { Provider } from "../islands/context/ContextTravel.tsx";
+import { Provider } from "../islands/ContextTravel.tsx";
 export default function App({ Component }: PageProps) {
   return (
     <html>

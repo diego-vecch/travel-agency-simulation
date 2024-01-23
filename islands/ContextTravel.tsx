@@ -4,6 +4,7 @@ import {
 } from "https://esm.sh/preact@10.19.2";
 import { useState } from "https://esm.sh/preact@10.19.2/hooks";
 import { StateUpdater } from "https://esm.sh/preact@10.19.2/hooks";
+
 type ContextTravelSearch = {
   travelSearched: {}[];
   setTravelSearched: StateUpdater<{}[]>;

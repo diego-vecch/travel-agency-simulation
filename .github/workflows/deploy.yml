@@ -30,4 +30,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "travel-agency-simulation" # 📝 Update the deploy project name if necessary
-          entrypoint: "./index.ts" # 📝 Update the entrypoint if necessary
+          entrypoint: "./routes/index.tsx" # 📝 Update the entrypoint if necessary
